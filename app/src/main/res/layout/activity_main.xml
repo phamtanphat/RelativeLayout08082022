@@ -4,79 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     tools:context=".MainActivity">
 
     <TextView
-        android:textColor="#ffff"
-        android:background="#f20"
-        android:text="View 1"
+        android:id="@+id/text_view_red"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:padding="10dp"
+        android:text="Red"
+        android:textColor="#ffff" />
 
     <TextView
-        android:layout_alignParentEnd="true"
-        android:textColor="#ffff"
-        android:background="#40B7E6"
-        android:text="View 2"
+        android:id="@+id/text_view_green"
+        android:layout_below="@id/text_view_red"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="#30D82A"
+        android:padding="10dp"
+        android:text="Green"
+        android:textColor="#ffff" />
 
     <TextView
-        android:textColor="#ffff"
-        android:background="#5A3FD8"
-        android:text="View 3"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/text_view_blue"
+        android:layout_below="@id/text_view_green"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="#0055FF"
+        android:padding="10dp"
+        android:text="Blue"
+        android:textColor="#ffff" />
 
     <TextView
-        android:textColor="#ffff"
-        android:background="#CF02E6"
-        android:text="View 4"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
+        android:id="@+id/text_view_orange"
+        android:layout_below="@id/text_view_blue"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <TextView
-        android:layout_centerHorizontal="true"
-        android:textColor="#ffff"
-        android:background="#FF5722"
-        android:text="View 5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <TextView
-        android:layout_centerVertical="true"
-        android:layout_alignParentEnd="true"
-        android:textColor="#ffff"
-        android:background="#818181"
-        android:text="View 6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <TextView
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:textColor="#ffff"
-        android:background="#BDE4A1"
-        android:text="View 7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <TextView
-        android:layout_centerVertical="true"
-        android:textColor="#ffff"
-        android:background="#AC8CE8"
-        android:text="View 8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <TextView
-        android:layout_centerInParent="true"
-        android:textColor="#ffff"
-        android:background="#202020"
-        android:text="View 9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:padding="10dp"
+        android:text="Orange"
+        android:textColor="#ffff" />
 </RelativeLayout>
